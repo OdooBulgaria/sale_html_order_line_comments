@@ -6,7 +6,7 @@
     'author': 'Luke Branch',
     'depends': ['sale'],
     'data': [
-        'views/layout.xml',
+        'views/fields.xml',
     ],
     'application': True,
 }
