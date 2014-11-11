@@ -6,7 +6,7 @@
             <field name="inherit_id" ref="sale.view_order_form"/>
             <field name="arch" type="xml">
                    <xpath expr="//field[@name='price_subtotal']" position="after">
-                    <field name="x_sale_order_line_comment_1" widget"html" modifiers="{}"/>
+                    <field name="x_sale_order_line_comment_1" widget="html" modifiers="{}"/>
                     </xpath>
             </field>
         </record>
